@@ -1,0 +1,39 @@
+body{
+	background-image:url("../imagenes/veterinario.jpg") ;
+	width: 1000px;
+	height: 667px;
+	background-repeat: no-repeat;
+}
+
+.fijo{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100px;
+	border: 3px red solid;
+	cursor: pointer;
+}
+img.izquierda{
+	float: left;
+}
+
+.fijo:hover{
+	border: dashed 3px black;
+}
+div>h1{
+	border: solid greenyellow 2px;
+	position: relative;
+	width: 200px;
+	height: 70px;
+	left: 300px;
+}
+h1:hover{
+	background: greenyellow;
+}
+label{
+	color: purple;
+	background: whitesmoke;
+	cursor: pointer;
+}
+
+
